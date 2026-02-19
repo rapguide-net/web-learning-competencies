@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web-Based Learning System for Computer Systems Servicing Competencies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 data-text="Web Based Learning System">Web-Based Learning System for Computer Systems Servicing Competencies</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="welcome-container">
+            <h2 class="text">Welcome</h2>
+            <div class="accent-line"></div>
+            <p>This platform offers interactive modules and video tutorials to build competencies in computer systems servicing, including hardware assembly, software troubleshooting, and network setup.</p>
+            <div class="home-actions">
+                <a href="#modules" class="btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="modules">
+       <div class="selection-container">
+            <h2>Modules</h2>
+            <div class="selection-card">
+                <div class="card-header">
+                    <div class="icon-circle"><i class="fas fa-microchip"></i></div>
+                    <h3>Module 1: Hardware Basics</h3>
+                </div>
+                <p class="summary">Learn about computer components like CPUs, RAM, and motherboards. Key competencies: Identifying parts.</p>
+        
+                <button class="selector-btn" data-target="module1">Read More</button>
+        
+                <div id="module1" class="extra-content">
+                    <p>Detailed content: Start by understanding the motherboard's role as the central hub. Practice identifying ports and slots.</p>
+                </div>
+            </div>
+   
+
+            <div class="selection-card">
+                <div class="card-header">
+                    <div class="icon-circle"><i class="fas fa-save"></i></div>
+                    <h3>Module 2: Software Installation</h3>
+                </div>
+                <p class="summary">Cover OS installation, drivers, and updates. Competencies: Troubleshooting boot issues.</p>
+        
+                <button class="selector-btn" data-target="module2">Read More</button>
+        
+                <div id="module2" class="extra-content">
+                    <p>Detailed content: Use tools like bootable USBs for Windows/Linux installs. Common errors: Driver conflicts.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more modules as needed -->
+    </section>
+
+    <section id="videos" class="videos-section">
+        <div class="section-header">
+            <h2 class="head-text">Video Presentations</h2>
+            <p>Step-by-step visual guides for technical mastery.</p>
+        </div>
+
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-thumbnail channel-preview">
+                    <img src="https://yt3.googleusercontent.com/ytc/AIdro_khaqVXU1iZH8DwC9wGrSymYKddiCQnZxVxSO3FWq7rcw=s160-c-k-c0x00ffffff-no-rj" alt="Channel Profile">
+                </div>
+                <div class="video-info">
+                    <h3>Visit Channel</h3>
+                    <p>Explore the full library of CSS and Networking Tutorials</p>
+                    <a href="https://www.youtube.com/@sirj-dhel8161" target="_blank" rel="noopener noreferrer" class="video-btn">Visit Channel <i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-thumbnail network-bg">
+                    <img src="">
+                    <i class="fas fa-play-circle"></i>
+                    <div class="duration">08:20</div>
+                </div>
+                <div class="video-info-two">
+                    <h3>Network Troubleshooting</h3>
+                    <p>Diagnose connectivity issues and configure routers like a pro.</p>
+                    <a href="https://www.youtube.com/watch?v=QcPNOcLlFrg&t=2s" target="_blank" rel="noopener noreferrer" class="video-btn">Watch on YouTube <i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="css/js/script.js"></script>
+</body>
+</html>
